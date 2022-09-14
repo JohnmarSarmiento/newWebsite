@@ -1,0 +1,258 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Nova Square', cursive;
+}
+body {
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+.nav_container {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    display: absolute;
+}
+.nav_title {
+    display: inline-block;
+}
+.nav_title h1 {
+    position: absolute;
+    font-size: 50px;
+    line-height: 55px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.title1 {
+    color: gray;
+    -webkit-text-stroke: 1px gray;
+    
+}
+.title2 {
+    color: gray;
+    animation: animate 5s linear infinite;
+}
+span {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-style: italic;
+    
+}
+@keyframes animate {
+    0% , 100% {
+        color: #c46a46fa;
+        clip-path: polygon(0% 43%, 12% 41%, 30% 44%, 45% 52%, 56% 63%, 67% 69%, 83% 71%, 100% 63%, 100% 100%, 0 100%, 0 89%);
+    }
+    50% {
+        color: #722cc6f3;
+        clip-path: polygon(0 63%, 21% 68%, 35% 67%, 51% 56%, 60% 43%, 69% 36%, 83% 31%, 100% 33%, 100% 100%, 0 100%, 0 89%);
+    }
+}
+ul {
+    float: right;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: gray;
+    padding: 0px 30px;
+    line-height: 89px;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/* -------------MySecond Page-2 ----------------*/
+
+.second_container {
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.second_title h2 {
+    margin-top: 40%;
+    position: absolute;
+    color: white;
+    font-size: 120px;
+    border: 1px solid white;
+    border-radius: 20px;
+   font-family: 'Rubik Wet Paint', cursive;
+   padding: 90px 55px;
+   
+}
+.title3 {
+    color: black;
+    -webkit-text-stroke: 1px black;
+   
+}
+.title4 {
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
+@keyframes animated {
+    0% , 100% {
+        color: #c46a46fa;
+        clip-path: polygon(0% 43%, 12% 41%, 30% 44%, 45% 52%, 56% 63%, 67% 69%, 83% 71%, 100% 63%, 100% 100%, 0 100%, 0 89%);
+    }
+    50% {
+        color: #722cc6f3;
+        clip-path: polygon(0 63%, 21% 68%, 35% 67%, 51% 56%, 60% 43%, 69% 36%, 83% 31%, 100% 33%, 100% 100%, 0 100%, 0 89%);
+    }
+}
+/*-------------MyThird Page-3------------------*/
+.third_container {
+    text-align: center;
+    justify-content: center;
+}
+
+.third_button {
+    position: absolute;
+    margin-top: 83%;
+    margin-left: 37.5%;
+}
+.third_button a {
+    text-decoration: none;
+    display: block;
+}
+.third_button a button {
+    cursor: pointer;
+    padding: 20px 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: gray;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/*-------------MyFourth Page-4------------------*/
+
+.fourth_container {
+    text-align: center;
+    justify-content: center;
+}
+.contain_para {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.contain_para p {
+    color: gray;
+    font-size: 30px;
+}
+
+/*-------------MyFifth Page-5------------------*/
+
+.fifth_container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contain_logo {
+    margin-top: 120%;
+    margin-left: 31.5%;
+    position: absolute;
+}
+.contain_logo a {
+    color: #e4dfdf;
+    margin-top: 10px;
+}
+.contain_logo i {
+    font-size: 70px;
+    padding: 0px 30px;
+}
+
+/*-------------MySixth Page-6------------------*/
+
+.foater_container {
+    text-align: center;
+    justify-content: center;
+}
+.foater_last {
+    color: gray;
+    margin-top: 180%;
+}
+.foater_last p {
+    font-size: medium;
+}
+
+@media screen and (max-width: 550px) {
+    .nav_container {
+        width: 100%;
+        height: 45px;
+        
+    }
+    .nav_title h1 {
+        line-height: 10px;
+        font-size: 20px;
+        float: left;
+    }
+    ul {
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+    }
+    ul li {
+        list-style: none;
+        display: inline-block;
+        float: right;
+    }
+    ul li a {
+        line-height: 50px;
+        font-size: 10px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+    .second_title h2 {
+        margin-top: 30%;
+        font-size: 44px;
+        padding: 30px 20px;
+        position: absolute;
+    }
+    .third_button {
+        margin-top: 75%;
+        margin-left: 35.5%;
+    }
+    .third_button a button {
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border-bottom: 1px gray solid;
+        cursor: pointer;
+    }
+    .contain_para {
+        border-bottom: 1px solid gray;
+        padding-bottom: 15px;
+    }
+    .contain_para p {
+        font-size: 10px;
+    }
+    .contain_logo {
+        margin-left: 28.5%;
+    }
+    .contain_logo i {
+        font-size: 20px;
+        padding: 5px 15px
+    }
+    .contain_logo a {
+        cursor: pointer;
+    }
+    .foater_last p {
+        font-size: 6px;
+    }
+    
+}
